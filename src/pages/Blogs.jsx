@@ -41,12 +41,14 @@ function Blogs() {
 
 
       {/* Blogs Container */}
-      <div className='flex flex-wrap w-screen mt-[10rem] relative z-5 p-20'>
+      <div className='flex flex-wrap w-screen mt-[10rem] relative z-5 p-10 justify-center'>
         {posts.map((post, i) =>(
+          <>
           <BlogCard key={i} title={post.title} 
                     link={post.slug.current} 
                     description={post.description} 
                     date={post.publishedAt}/>
+          </>
         ))}
       </div>
 
