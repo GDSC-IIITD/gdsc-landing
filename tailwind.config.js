@@ -8,15 +8,15 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'googleRed': "#1178D7",
-      'googleBlue': "#008A61",
-      'googleGreen': "#F8F8F8",
-      'googleYellow': "#DBDBDB",
+      'googleRed': "#EA4235",
+      'googleBlue': "#4286F5",
+      'googleGreen': "#109D58",
+      'googleYellow': "#FABD03",
       'textMain': "#1E1E1E",
       'textSecondary': "#777777",
     },
     fontFamily: {
-      'google': ['Open-Sans','sans-serif'],
+      'google': ['Open Sans','sans-serif'],
     },
     screens: {
       'small':{

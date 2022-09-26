@@ -10,17 +10,7 @@ function Post() {
     useEffect(() => {
         client
           .fetch(
-            `*[slug.current == "${slug}"] {
-            title,
-            body,
-            mainImage {
-              asset -> {
-                _id,
-                url
-              },
-              alt
-            }
-          }`
+            `*[slug.current == "${slug}"] { title, body, description, mainImage { asset -> {_id, url}, alt} }`
           )
           .then((data) => setSinglePost(data[0]))
         setIsLoading(false)
@@ -29,7 +19,27 @@ function Post() {
   return (
     <>
         {isLoading ? (<h1 > Loading...</h1>) :
-        (<></>)}
+        (<section className="font-google w-screen">
+
+          {singlePost.mainImage && singlePost.mainImage.asset && (
+            <img
+            src={singlePost.mainImage.asset.url}
+            alt={singlePost.title}
+            title={singlePost.title}
+            className='w-screen h-[60vh] object-cover'
+            />
+            )}
+
+          <h2 className="text-center font-[700] text-googleBlue text-[3rem] mt-10">{singlePost.title}</h2>
+          <p className='text-center font-[600] text-textSecondary text-[1rem]'>{singlePost.description}</p>
+          <BlockContent
+            blocks={singlePost.body}
+            projectId="d25hw29d"
+            dataset="production"
+            className='p-20'
+          />
+
+        </section>)}
     </>
   )
 }
