@@ -36,7 +36,7 @@ function Post() {
             blocks={singlePost.body}
             projectId="d25hw29d"
             dataset="production"
-            className='p-20'
+            className='p-20 small:p-10'
           />
 
         </section>)}
