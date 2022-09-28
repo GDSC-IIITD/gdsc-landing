@@ -15,8 +15,8 @@ function ContactUs() {
 
       {/* Contact us */}
       <div className="flex flex-col w-full justify-start items-center large:items-start large:px-60 text-textSecondary font-google space-y-12 mt-16">
-        <h1 className="text-4xl text-contactHeading font-bold">Find us on</h1>
-        <ul className="flex flex-col w-75 font-semibold space-y-4">
+        <h1 className="text-5xl text-contactHeading font-bold">Find us on</h1>
+        <ul className="flex flex-col w-75 font-semibold space-y-4 large:pl-4">
           <li><a className="flex items-center space-x-4 cursor-pointer"><img src={telegram} alt="telegram-icon" className="w-12"/><span className="hover:text-googleBlue hover:scale-105">Telegram</span></a></li>
           <li><a className="flex items-center space-x-4 cursor-pointer"><img src={twitter} alt="twitter-icon" className="w-12"/><span className="hover:text-googleYellow hover:scale-105">Twitter</span></a></li>
           <li><a className="flex items-center space-x-4 cursor-pointer"><img src={linkedIn} alt="linkedIn-icon" className="w-12"/><span className="hover:text-googleGreen hover:scale-105">LinkedIn</span></a></li>
