@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../css/contactUs.css';
 import telegram from '../images/contactUs/telegram.svg';
 import twitter from '../images/contactUs/twitter.svg';
 import linkedIn from '../images/contactUs/linkedIn.svg';
@@ -10,7 +11,7 @@ function ContactUs() {
     <>
       {/* Background */}
       <div className="flex justify-center large:justify-end w-full h-full absolute top-10 -z-10">
-        <img src={gdsc} alt="background" className="absolute top-0 right-10 w-4/5 large:w-2/5 small:invisible" />
+        <img src={gdsc} alt="background" className="absolute right-10 w-4/5 large:w-2/5 small:invisible springish" />
       </div>
 
       {/* Contact us */}
