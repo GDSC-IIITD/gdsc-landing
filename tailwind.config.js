@@ -14,6 +14,7 @@ module.exports = {
       'googleYellow': "#FABD03",
       'textMain': "#1E1E1E",
       'textSecondary': "#777777",
+      'contactHeading': "#91969F",
     },
     fontFamily: {
       'google': ['Open Sans','sans-serif'],
