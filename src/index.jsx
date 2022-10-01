@@ -10,7 +10,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import ValueProposition from "./components/sections/ValueProposition";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,7 +22,6 @@ root.render(
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/contactUs" element={<ContactUs />} />
       <Route path="/team" element={<Team />} />
-      <Route path="/valueProposition" element={<ValueProposition />} />
     </Routes>
     <Footer />
   </BrowserRouter>
