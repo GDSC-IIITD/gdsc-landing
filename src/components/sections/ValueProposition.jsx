@@ -23,12 +23,12 @@ function ValueProposition() {
   }, []);
   return (
     <>
-      <div className="flex w-screen fixed top-10 justify-between z-0">
+      <div className="flex w-full fixed top-10 justify-between z-0">
         <img src={circleShape} alt="circle shape" className="mt-[1vw]" />
         <img src={waveShape} alt="wave shape" className="h-[57rem]" />
       </div>
 
-      <div className="z-1 w-screen grid grid-cols-1 gap-10 mt-[31px]">
+      <div className="z-1 w-full grid grid-cols-1 gap-10 mt-[31px]">
         <div className="flex flex-wrap justify-evenly items-center">
           <div
             className="flex items-center justify-center shrink  "
