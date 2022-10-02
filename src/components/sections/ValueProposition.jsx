@@ -38,7 +38,7 @@ function ValueProposition() {
             <img src={compShape1} width={"100%"} alt="component 1" />
           </div>
           <div className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
-            data-aos="slide-left"
+            data-aos="fade-left"
           >
             <img src={compShapeDet1} width={"100%"} alt="component 2" />
           </div>
@@ -67,7 +67,7 @@ function ValueProposition() {
           </div>
           <div
             className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
-            data-aos="slide-left"
+            data-aos="fade-left"
           >
             <img src={compShapeDet3} width={"100%"} alt="component 2" />
           </div>
@@ -82,7 +82,7 @@ function ValueProposition() {
           </div>
           <div
             className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
-            data-aos="slide-left"
+            data-aos="fade-left"
           >
             <img src={compShapeDet4} width={"100%"} alt="component 2" />
           </div>
