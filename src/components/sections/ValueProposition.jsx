@@ -23,14 +23,14 @@ function ValueProposition() {
   }, []);
   return (
     <>
-      <div className="flex w-[7vmax] absolute top-[122vh] left-0 z-0 small:top-[92vh] small:w-[2.5vmax]">
+      <div className="flex w-[7vmax] absolute top-[60vmax] left-0 z-0 small:top-[107vmax] small:w-[2.5vmax]">
         <img src={circleShape} width={"100%"} alt="circle shape" />
       </div>
-      <div className="flex w-[8vmax] absolute top-[100vh] right-0 z-0 small:top-[80vh]">
+      <div className="flex w-[8vmax] absolute top-[100vh] right-0 z-0 small:top-[95vmax]">
       <img src={waveShape} width={"100%"} alt="wave shape" />
       </div>
       
-      <div className="z-1 w-full grid grid-cols-1 gap-10 mt-[31px]">
+      <div className="z-1 w-full grid grid-cols-1 gap-10 mt-[31px] pb-[20vmax]">
         <div className="flex flex-wrap justify-evenly items-center">
           <div className="flex items-center w-[35%] justify-center shrink small:w-[55%]"
             data-aos="slide-right"

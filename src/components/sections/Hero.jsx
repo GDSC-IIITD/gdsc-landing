@@ -9,23 +9,23 @@ import right_lower_semicircle from '../../images/backgrounds/hero_svgs/right_low
 function Hero() {
   return (
     <div>
-      <div id='container' className='pt-[15vh] flex flex-col align-middle small:pt-[20vh]'>
+      <div id='container' className='py-[15vh] flex flex-col align-middle small:py-[20vh]'>
         <div className='absolute top-0 z-0 w-[16vmax]'>
           <img src={upper_left}  width={"100%"} alt='upper left' />
         </div>
-        <div className='absolute top-[17vmax] left-[2vmax] z-10 w-[3vmax]'>
+        <div className='absolute top-[17vmax] left-[2vmax] z-10 w-[3vmax] small:top-[20vmax]'>
           <img src={left_middle_square} width={"100%"} alt='left_middle_square' />
         </div>
-        <div className='absolute top-[55vh] z-10 w-[7vmax]'>
+        <div className='absolute top-[28vmax] z-10 w-[7vmax] small:top-[45vmax]'>
           <img src={lower_yellow_square} width={"100%"} alt='lower_yellow_square' />
         </div>
-        <div className='absolute top-[0] right-0 z-10 w-[19vmax]'>
+        <div className='absolute top-[0] right-0 z-10 w-[19vmax] small:'>
           <img src={upper_right_wave} width={"100%"} alt='upper_right_wave' />
         </div>
-        <div className='absolute top-[16vh] right-[26vw] z-10 w-[4vmax] small:top-[16vmax] small:right-[15vw]'>
+        <div className='absolute top-[8vmax] right-[26vw] z-10 w-[4vmax] small:top-[15vmax] small:right-[15vw]'>
           <img src={right_middle_circle} width={"100%"} alt='right_middle_circle' />
         </div>
-        <div className='absolute top-[60vh] right-[0] z-10 w-[4vmax]'>
+        <div className='absolute top-[30vmax] right-[0] z-10 w-[4vmax] small:top-[50vmax]'>
           <img src={right_lower_semicircle} width={"100%"} alt='right_lower_semicircle' />
         </div>
         <div id='upper-half-container' className='flex w-full justify-center z-30'>
@@ -34,13 +34,13 @@ function Hero() {
             <div><span className='text-googleGreen'>D</span>eveloper</div>
             <div><span className='text-googleBlue'>S</span>tudent</div>
             <div><span className='text-googleYellow'>C</span>lubs</div>
-            <div className='text-[1.5vmax] p-3 tracking-normal'><span className='text-[#00D3C7]'>IIIT</span> Delhi</div> 
+            <div className='text-[1.5vmax] p-[1vmax] tracking-normal'><span className='text-[#00D3C7]'>IIIT</span> Delhi</div> 
           </div>
           <div id='animation-gif' className='w-[25%] small:w-[50%]'>
             <img src={temp_animation} alt='animation-gif'></img>
           </div>
         </div>
-        <div id='lower-half-container' className='w-full flex justify-center text-center pt-12 z-30'>
+        <div id='lower-half-container' className='w-full flex justify-center text-center pt-[3vmax] z-30'>
           <div className='w-[35%] font-google text-[#797979] text-[1.2vmax] small:w-[70%] small:text-[1.8vmax]'>
             Through GSDC - IIITD we, Developers and Designers want to foster a healthy development culture. Developer Student Clubs is a program that will help students to learn mobile and web development, design thinking and leadership skills.
           </div>

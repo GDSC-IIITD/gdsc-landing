@@ -3,7 +3,9 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+      
+    </div>
   )
 }
 
