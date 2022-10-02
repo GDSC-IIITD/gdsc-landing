@@ -23,69 +23,68 @@ function ValueProposition() {
   }, []);
   return (
     <>
-      <div className="flex w-full fixed top-10 justify-between z-0">
-        <img src={circleShape} alt="circle shape" className="mt-[1vw]" />
-        <img src={waveShape} alt="wave shape" className="h-[57rem]" />
+      <div className="flex w-[7vmax] absolute top-[122vh] left-0 z-0 small:top-[92vh] small:w-[2.5vmax]">
+        <img src={circleShape} width={"100%"} alt="circle shape" />
       </div>
-
+      <div className="flex w-[8vmax] absolute top-[100vh] right-0 z-0 small:top-[80vh]">
+      <img src={waveShape} width={"100%"} alt="wave shape" />
+      </div>
+      
       <div className="z-1 w-full grid grid-cols-1 gap-10 mt-[31px]">
         <div className="flex flex-wrap justify-evenly items-center">
-          <div
-            className="flex items-center justify-center shrink  "
+          <div className="flex items-center w-[35%] justify-center shrink small:w-[55%]"
             data-aos="slide-right"
           >
-            <img src={compShape1} alt="component 1" />
+            <img src={compShape1} width={"100%"} alt="component 1" />
           </div>
-          <div
-            className="flex items-center justify-start shrink"
+          <div className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
             data-aos="slide-left"
           >
-            <img src={compShapeDet1} alt="component 2" />
+            <img src={compShapeDet1} width={"100%"} alt="component 2" />
           </div>
         </div>
 
         <div className="flex flex-wrap justify-evenly items-center">
-          <div
-            className="flex items-center justify-center shrink "
+          <div className="flex items-center w-[35%] justify-center shrink small:w-[55%]"
             data-aos="fade-right"
           >
-            <img src={compShape2} alt="component 1" />
+            <img src={compShape2} width={"100%"} alt="component 1" />
           </div>
           <div
-            className="flex items-center justify-start shrink"
+            className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
             data-aos="fade-left"
           >
-            <img src={compShapeDet2} alt="component 2" />
+            <img src={compShapeDet2} width={"100%"} alt="component 2" />
           </div>
         </div>
 
         <div className="flex flex-wrap justify-evenly items-center">
           <div
-            className="flex items-center justify-center shrink "
+            className="flex items-center w-[35%] justify-center shrink small:w-[55%]"
             data-aos="slide-right"
           >
-            <img src={compShape3} alt="component 1" />
+            <img src={compShape3} width={"100%"} alt="component 1" />
           </div>
           <div
-            className="flex items-center justify-start shrink"
+            className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
             data-aos="slide-left"
           >
-            <img src={compShapeDet3} alt="component 2" />
+            <img src={compShapeDet3} width={"100%"} alt="component 2" />
           </div>
         </div>
 
         <div className="flex flex-wrap justify-evenly items-center">
           <div
-            className="flex items-center justify-center shrink "
+            className="flex items-center w-[35%] justify-center shrink small:w-[55%]"
             data-aos="slide-right"
           >
-            <img src={compShape4} alt="component 1" />
+            <img src={compShape4} width={"100%"} alt="component 1" />
           </div>
           <div
-            className="flex items-center justify-start shrink"
+            className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
             data-aos="slide-left"
           >
-            <img src={compShapeDet4} alt="component 2" />
+            <img src={compShapeDet4} width={"100%"} alt="component 2" />
           </div>
         </div>
       </div>
