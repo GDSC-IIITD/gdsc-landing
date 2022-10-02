@@ -1,10 +1,16 @@
 import '../App.css';
-
+import Hero from "../components/sections/Hero";
+import ValueProposition from "../components/sections/ValueProposition";
+import SocialValidation from "../components/sections/SocialValidation";
+import Sponsors from "../components/sections/Sponsors";
 function App() {
   return (
-    <div className="App font-google font-[800]">
-      LessGoooo
-    </div>
+    <>
+      <Hero/>
+      <ValueProposition/>
+      <SocialValidation/>
+      <Sponsors/>
+    </>
   );
 }
 
