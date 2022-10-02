@@ -8,9 +8,7 @@ import ContactUs from "./pages/ContactUs";
 import Team from "./pages/Team";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
