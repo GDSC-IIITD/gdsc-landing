@@ -13,8 +13,7 @@ module.exports = {
       'googleGreen': "#109D58",
       'googleYellow': "#FABD03",
       'textMain': "#1E1E1E",
-      'textSecondary': "#777777",
-      'contactHeading': "#91969F",
+      'textSecondary': "#91969F",
     },
     fontFamily: {
       'google': ['Open Sans','sans-serif'],

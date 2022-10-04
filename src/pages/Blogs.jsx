@@ -3,10 +3,10 @@ import client from "../client";
 
 import BlogCard from "../components/BlogCard";
 
-import shapeGreen from '../images/backgrounds/shapeGreen.svg';
-import circleBlue from '../images/backgrounds/circleBlue.svg';
-import randomShape1 from '../images/backgrounds/randomShape1.svg';
-import randomShape2 from '../images/backgrounds/randomShape2.svg';
+import shapeGreen from '../images/blogs/shapeGreen.svg';
+import circleBlue from '../images/blogs/circleBlue.svg';
+import randomShape1 from '../images/blogs/randomShape1.svg';
+import randomShape2 from '../images/blogs/randomShape2.svg';
 
 function Blogs() {
   const [posts, setPosts] = useState([])
@@ -41,7 +41,7 @@ function Blogs() {
 
 
       {/* Blogs Container */}
-      <div className='flex flex-wrap w-screen mt-[10rem] relative z-5 p-10 justify-center'>
+      <div className='flex flex-wrap w-screen mt-[10rem] relative z-5 px-10 justify-center'>
         {posts.map((post, i) =>(
           <>
           <BlogCard key={i} title={post.title} 

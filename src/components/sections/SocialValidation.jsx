@@ -1,10 +1,10 @@
-import Hackathons from '../../images/events/Hackathons.svg'
-import StudyJam from '../../images/events/StudyJam.svg'
-import Workshops from '../../images/events/Workshops.svg'
+import Hackathons from '../../images/home/events_svgs/Hackathons.svg'
+import StudyJam from '../../images/home/events_svgs/StudyJam.svg'
+import Workshops from '../../images/home/events_svgs/Workshops.svg'
 import Events from "./EventCard";
-import Event1 from '../../images/events/Event1.svg'
-import Event2 from '../../images/events/Event2.svg'
-import Event3 from '../../images/events/Event3.svg'
+import Event1 from '../../images/home/events_svgs/Event1.svg'
+import Event2 from '../../images/home/events_svgs/Event2.svg'
+import Event3 from '../../images/home/events_svgs/Event3.svg'
 
 
 const Cards = () => {

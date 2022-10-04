@@ -1,11 +1,11 @@
 import React from 'react'
 import temp_animation from '../../images/temp_animation.svg'
-import upper_left from '../../images/backgrounds/hero_svgs/upper_left.svg'
-import left_middle_square from '../../images/backgrounds/hero_svgs/left_middle_square.svg'
-import lower_yellow_square from '../../images/backgrounds/hero_svgs/lower_yellow_square.svg'
-import upper_right_wave from '../../images/backgrounds/hero_svgs/upper_right_wave.svg'
-import right_middle_circle from '../../images/backgrounds/hero_svgs/right_middle_circle.svg'
-import right_lower_semicircle from '../../images/backgrounds/hero_svgs/right_lower_semicircle.svg'
+import upper_left from '../../images/home/hero_svgs/upper_left.svg'
+import left_middle_square from '../../images/home/hero_svgs/left_middle_square.svg'
+import lower_yellow_square from '../../images/home/hero_svgs/lower_yellow_square.svg'
+import upper_right_wave from '../../images/home/hero_svgs/upper_right_wave.svg'
+import right_middle_circle from '../../images/home/hero_svgs/right_middle_circle.svg'
+import right_lower_semicircle from '../../images/home/hero_svgs/right_lower_semicircle.svg'
 function Hero() {
   return (
     <div>
@@ -19,7 +19,7 @@ function Hero() {
         <div className='absolute top-[28vmax] z-10 w-[7vmax] small:top-[45vmax]'>
           <img src={lower_yellow_square} width={"100%"} alt='lower_yellow_square' />
         </div>
-        <div className='absolute top-[0] right-0 z-10 w-[19vmax] small:'>
+        <div className='absolute top-[0] right-0 z-5 w-[19vmax] small:'>
           <img src={upper_right_wave} width={"100%"} alt='upper_right_wave' />
         </div>
         <div className='absolute top-[8vmax] right-[26vw] z-10 w-[4vmax] small:top-[15vmax] small:right-[15vw]'>
