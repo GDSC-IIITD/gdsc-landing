@@ -1,13 +1,14 @@
 import React from 'react';
 import EventCard from "../EventCard";
-import EventCarousel from "../EventCarousel";
 import Event1 from '../../images/home/events_svgs/Event1.svg'
-
+import { motion, useScroll } from "framer-motion";
 
 const SocialValidation = () => {
+
+
   return (
     <>
-      <EventCarousel/>
+      <motion.div className="bg-[url('./images/home/events_svgs/Bg.png')] w-[80%] h-[80vh] rounded-[5rem] " style={{scaleX: scrollYProgress}}/>
       <div className="text-6xl text-center small:text-[#9FA3AB] mt-12 mb-8 small:h-[270px] ">Upcoming Events</div>
 
 

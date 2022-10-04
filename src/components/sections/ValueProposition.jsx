@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import circleShape from "../../images/home/value_Proposition_svgs/proposition_circle_shape.svg";
-import waveShape from "../../images/home/value_Proposition_svgs/proposition_wave_shape.svg";
 import compShape1 from "../../images/home/value_Proposition_svgs/comp_f.svg";
 import compShapeDet1 from "../../images/home/value_Proposition_svgs/comp_f_det.svg";
 import compShape2 from "../../images/home/value_Proposition_svgs/comp_s.svg";
@@ -11,8 +9,6 @@ import compShape4 from "../../images/home/value_Proposition_svgs/comp_fo.svg";
 import compShapeDet4 from "../../images/home/value_Proposition_svgs/comp_fo_det.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 
 function ValueProposition() {
   useEffect(() => {
@@ -23,12 +19,6 @@ function ValueProposition() {
   }, []);
   return (
     <>
-      <div className="flex w-[7vmax] absolute top-[60vmax] left-0 z-0 small:top-[107vmax] small:w-[2.5vmax]">
-        <img src={circleShape} width={"100%"} alt="circle shape" />
-      </div>
-      <div className="flex w-[8vmax] absolute top-[100vh] right-0 z-0 small:top-[95vmax]">
-      <img src={waveShape} width={"100%"} alt="wave shape" />
-      </div>
       
       <div className="z-1 w-full grid grid-cols-1 gap-10 mt-[31px] pb-[20vmax]">
         <div className="flex flex-wrap justify-evenly items-center">
