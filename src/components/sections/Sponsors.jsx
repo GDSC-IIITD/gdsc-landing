@@ -7,7 +7,7 @@ function Sponsors() {
   return (
     <div className="w-full text-center font-google">
       {/* Background */}
-      <div className="flex w-screen absolute -z-10 justify-between small:justify-center small:overflow-hidden">
+      <div className="flex w-full absolute z-0 justify-between small:justify-center small:overflow-clip">
         <img className="w-2/12 small:hidden" src={shapeSquare} />
         <img className="w-1/12 small:hidden" src={shapeCircle} />
       </div>
@@ -18,7 +18,7 @@ function Sponsors() {
             <div key={i} className="flex flex-col h-[13rem] justify-between mx-10 my-10 shadow-xl px-10 py-5 rounded-xl bg-white">
               <div></div>
               <img src={require('../../images/sponsors/' + sponsor.img)} 
-              className="w-[8rem] h-auto"/>
+              className="w-[8rem]"/>
               <p className="text-[#898989] font-[600]"><a href={sponsor.url}>{sponsor.name}</a></p>
             </div>
           )

@@ -17,27 +17,31 @@ function Footer() {
   return (
     <>
       <div className="w-full flex justify-between h-[100vh] mt-[-1rem] relative z-10 overflow-clip">
-        <div className="w-1/3 flex flex-col p-10  justify-between items-center relative z-10 ">
-          <img src={circle} className="w-[3rem]"/>
-          <img src={rectangle} className="w-[5rem] mt-10"/>
-          <img src={logo} className="h-[10%] mt-[-10rem]"/>
+        <div className='absolute top-[7rem] left-[10vmax] z-10 w-[3vmax] small:top-[20vmax] bounce'>
+          <img src={circle} width={"100%"} alt='circle' />
         </div>
+        <div className='absolute top-[27rem] left-[8vmax] z-10 w-[4vmax] small:top-[45vmax] bounce2'>
+          <img src={rectangle} width={"100%"} alt='rectangle' />
+        </div>
+        <div className='absolute bottom-[3vh] left-[4vw] z-10 w-[30vmax]'>
+          <img src={logo} width={"100%"} alt='gdsc logo' />
+        </div>
+          {/* <img src={circle} className="w-[3rem] small:w-[2.5rem]"/>
+          <img src={rectangle} className="w-[5rem] top-[50vmax] small:w-[3rem]"/>
+          <img src={logo} width={"100%"} className="p-0 top-[50vmax] ml-[3vmax]"/> */}
 
-        <div className="w-1/3 flex flex-col font-google text-center items-center justify-center mt-[-10rem] relative z-10">
-          <h2 className="font-[700] text-googleBlue text-[4rem] mb-10">Stay Updated</h2>
-          <p className="text-textSecondary mb-5 font-[600]">Stay connected to stay updated about the upcoming events and the latest news.</p>
+        <div className="w-full flex flex-col font-google text-center items-center justify-center mt-[-4rem] relative z-10">
+          <h2 className="font-[700] text-googleBlue text-[4.5vmax]  pb-[1vmax]">Stay Updated</h2>
+          <p className="text-textSecondary mb-5 font-[600] text-[1.5vmax] w-5/12">Stay connected to stay updated about the upcoming events and the latest news.</p>
           <form onSubmit={submit}>
             <input type="text" value={email} 
                   onChange={(e)=>setEmail(e.target.value)}
-                  className="rounded-full bg-[lightgrey] px-5 p-2 text-center" 
+                  className="rounded-full bg-[lightgrey] px-16 p-2 text-center" 
                   placeholder="Enter email"/>
           </form>
         </div>
-      
-        <div className="w-1/3 flex flex-col justify-between items-center p-10 pb-0">
-          <img src={triangle} className="w-[4rem] mt-10"/>
-          <img src={gif} className="z-0 w-[40%] scale-150 absolute bottom-[-4rem]"/>
-        </div>
+        <img src={triangle} className="absolute top-[4rem] z-10 w-[4vmax] right-[10vmax]"/>
+        <img src={gif} className="absolute z-0 w-[40%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[2.5vmax]"/>
       </div>
     </>
   )

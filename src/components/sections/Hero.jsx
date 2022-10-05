@@ -20,21 +20,21 @@ function Hero() {
         <div className='absolute top-[0] right-0 z-5 w-[19vmax]'>
           <img src={upper_right_wave} width={"100%"} alt='upper_right_wave' />
         </div>
-        <div className='absolute top-[8vmax] right-[26vw] z-10 w-[4vmax] small:top-[15vmax] small:right-[15vw] bounce'>
+        <div className='absolute top-[8vmax] right-[26vw] z-40 w-[4vmax] small:top-[15vmax] small:right-[15vw] bounce'>
           <img src={right_middle_circle} width={"100%"} alt='right_middle_circle' />
         </div>
         <div className='absolute top-[30vmax] right-[0] z-10 w-[4vmax] small:top-[50vmax] bounce2'>
           <img src={right_lower_semicircle} width={"100%"} alt='right_lower_semicircle' />
         </div>
-        <div id='upper-half-container' className='flex flex-col w-full items-center z-30'>
-          <div id='animation-gif' className='w-[35%] small:w-[50%] mt-[-10rem] mb-[-5rem]'>
-            <img src={homeGif} className='w-[100%]' alt='animation-gif'></img>
+        <div id='upper-half-container' className='flex flex-col w-full items-center -z-10'>
+          <div id='animation-gif' className='w-[35%] small:w-[90%] mt-[-12vmax] mb-[-6vmax] small:-mt-[22vmax] small:-mb-[10vmax]'>
+            <img src={homeGif} width={"100%"} alt='animation-gif'></img>
           </div>
           <div id='gdsc' className='text-center font-google font-bold text-[3.5vmax] text-[#BBBBBB] leading-tight tracking-wider small:pl-[2vmax] small:pr-[0] small:text-[3.5vmax]'>
-            <div className='springish-G'><span className='text-googleRed'>G</span>oogle</div>
-            <div className='springish-D'><span className='text-googleBlue'>D</span>eveloper</div>
-            <div className='springish-S'><span className='text-googleYellow'>S</span>tudent</div>
-            <div className='springish-C'><span className='text-googleGreen'>C</span>lubs</div>
+            <div><span className='text-googleRed'>G</span>oogle</div>
+            <div><span className='text-googleBlue'>D</span>eveloper</div>
+            <div><span className='text-googleYellow'>S</span>tudent</div>
+            <div><span className='text-googleGreen'>C</span>lubs</div>
             <div className='text-[1.5vmax] p-[1vmax] tracking-normal '><span className='text-[#00D3C7]'>IIIT</span> Delhi</div> 
           </div>
         </div>
