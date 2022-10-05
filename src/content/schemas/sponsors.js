@@ -9,6 +9,11 @@ export default {
         type: 'string',
       },
       {
+        name: 'link',
+        title: 'Link',
+        type: 'string',
+      },
+      {
         name: 'mainImage',
         title: 'Main image',
         type: 'image',
@@ -22,6 +27,7 @@ export default {
       select: {
         title: 'title',
         media: 'mainImage',
+        link:'link'
       },
     },
   }
