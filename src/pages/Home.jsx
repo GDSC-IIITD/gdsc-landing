@@ -8,7 +8,7 @@ function App() {
     <div className='flex flex-col items-center overflow-clip'>
       <Hero/>
       <ValueProposition/>
-      <SocialValidation/>
+      {/* <SocialValidation/> */}
       <Sponsors/>
     </div>
   );
