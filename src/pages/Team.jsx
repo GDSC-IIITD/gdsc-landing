@@ -15,7 +15,7 @@ function Team() {
                     className='w-[15rem] h-[13rem]'/>
               <img src={require('../images/team/Members/'+(member.name)+'.png')}
                     className='w-[14rem] absolute top-[-1rem] z-10'/>
-              <h1 className='font-[700] text-[1.25rem]'>{member.name}</h1>
+              <a href={member.link} className='font-[700] text-[1.25rem]'>{member.name}</a>
               <p>{member.role}</p>
             </div>)
         })}

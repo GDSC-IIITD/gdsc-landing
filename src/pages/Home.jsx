@@ -5,10 +5,10 @@ import SocialValidation from "../components/sections/SocialValidation";
 import Sponsors from "../components/sections/Sponsors";
 function App() {
   return (
-    <div className=' overflow-clip'>
+    <div className='flex flex-col items-center overflow-clip'>
       <Hero/>
       <ValueProposition/>
-      <SocialValidation/>
+      {/* <SocialValidation/> */}
       <Sponsors/>
     </div>
   );
