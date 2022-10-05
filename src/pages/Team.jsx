@@ -5,7 +5,7 @@ import '../css/animations.css';
 function Team() {
   return (
     <div className='w-full text-center font-google'>
-      <h2 className='font-[700] text-textSecondary text-[5rem]'>Meet the Team...</h2>
+      <h2 className='font-[700] text-textSecondary text-[6vmax]'>Meet the Team...</h2>
       <div className='w-full flex flex-wrap justify-center items-center px-10'>
           {data.map((member,i)=>{
             var n = Math.floor(Math.random()*8);
