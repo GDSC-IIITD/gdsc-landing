@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../images/logo.svg'
-function NavBar() {
+function NavBar() { 
   return (
-    <div className="flex w-full justify-between items-center top-0 bg-[white] relative z-20 p-[1.4vmax] small:sticky small:pt-[3vmax]">
+    <div className="flex w-full justify-between items-center top-0 bg-[white] relative z-20 p-[1.4vmax] small:sticky small:pt-[3vmax] shadow-md">
       <img className='w-1/3 ml-[2vmax] small:w-10/12 small:ml-[4vmax]' src={logo}/>
       <div className="flex w-2/6 justify-between small:hidden mr-[2.5vmax] text-[1.3vmax] font-google font-semibold">
         <Link className="hover:text-googleBlue" to={'/'}>Home</Link>
