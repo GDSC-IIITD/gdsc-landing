@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import client from "../client";
-
+import '../css/animations.css'
 import BlogCard from "../components/BlogCard";
 
 import shapeGreen from '../images/blogs/shapeGreen.svg';
@@ -24,10 +24,10 @@ function Blogs() {
     <>
       {/* Background */}
       <div className="flex w-full small:overflow-clip absolute justify-between z-0 mt-[2vmax] small:mt-[20vmax]">
-        <img className='w-[25vmax] -mt-[6vmax] small:mt-[4vmax] small:w-[18vmax]' src={shapeGreen}/>
-        <img className='ml-[-50vw] small:hidden' src={randomShape1}/>
-        <img className='mr-[-40vw] small:hidden' src={randomShape2}/>
-        <img className='w-[12vmax] mt-[5vmax] small:mt-[16vmax] small:w-[8vmax]' src={circleBlue}/>
+        <img className='w-[25vmax] -mt-[6vmax] small:mt-[4vmax] small:w-[18vmax] bounce2' src={shapeGreen}/>
+        <img className='ml-[-50vw] small:hidden bounce' src={randomShape1}/>
+        <img className='mr-[-40vw] small:hidden bounce2' src={randomShape2}/>
+        <img className='w-[12vmax] mt-[5vmax] small:mt-[16vmax] small:w-[8vmax] bounce' src={circleBlue}/>
       </div>
 
 

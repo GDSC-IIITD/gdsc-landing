@@ -1,9 +1,19 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import shapeSquare from '../../images/sponsors/shapeSquare.svg';
 import shapeCircle from '../../images/sponsors/shapeCircle.svg';
-import sponsors from '../../data/sponsors.json';
+import client from '../../client';
 
 function Sponsors() {
+  const [sponsors, setSponsors] = useState([])
+  useEffect(() => {
+    client
+      .fetch(
+        `*[_type == "sponsors"] { title, mainImage }`
+      )
+      .then((data) => setSponsors(data))
+  }, [])
+
+
   return (
     <div className="w-full text-center font-google">
       {/* Background */}
