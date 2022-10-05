@@ -13,11 +13,11 @@ function ContactUs() {
   return (
     <>
       {/* Background */}
-      <div className="flex px-[6vmax] justify-end w-full h-full absolute -top-[9rem] z-0 small:w-5/12 small:-top-[39vmax] small:-right-[1vmax]">
-        <img src={G} alt="background" className="mr-5 w-[6.5vmax] springish-G" />
-        <img src={D} alt="background" className="mr-5 w-[5.6vmax]  springish-D" />
-        <img src={S} alt="background" className="mr-5 w-[5.7vmax]  springish-S" />
-        <img src={C} alt="background" className="mr-5 w-[9vmax]  springish-C" />
+      <div className="flex px-[5vmax] justify-end w-full h-full absolute -top-[12rem] z-0 small:w-5/12 small:-top-[39vmax] small:-right-[1vmax]">
+        <img src={G} alt="background" className="mr-5 w-[8.5vmax] springish-G" />
+        <img src={D} alt="background" className="mr-5 w-[7.6vmax]  springish-D" />
+        <img src={S} alt="background" className="mr-5 w-[7.7vmax]  springish-S" />
+        <img src={C} alt="background" className="mr-5 w-[11vmax]  springish-C" />
       </div>
 
       {/* Contact us */}
