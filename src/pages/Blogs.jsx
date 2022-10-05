@@ -23,25 +23,25 @@ function Blogs() {
   return (
     <>
       {/* Background */}
-      <div className="flex w-screen small:overflow-hidden absolute top-10 small:top-[10rem] justify-between z-0">
-        <img className='small:w-[70%]' src={shapeGreen}/>
+      <div className="flex w-full small:overflow-clip absolute justify-between z-0 mt-[2vmax] small:mt-[20vmax]">
+        <img className='w-[25vmax] -mt-[6vmax] small:mt-[4vmax] small:w-[18vmax]' src={shapeGreen}/>
         <img className='ml-[-50vw] small:hidden' src={randomShape1}/>
         <img className='mr-[-40vw] small:hidden' src={randomShape2}/>
-        <img className='small:w-[70%]' src={circleBlue}/>
+        <img className='w-[12vmax] mt-[5vmax] small:mt-[16vmax] small:w-[8vmax]' src={circleBlue}/>
       </div>
 
 
       {/* Heading */}
-      <div className="flex flex-col w-screen items-center text-center font-google relative z-5">
-        <h2 className='w-2/5 mt-20 text-googleGreen font-[700] text-[3rem] small:text-[2rem] small:w-4/5'>
+      <div className="flex flex-col w-full items-center text-center font-google relative z-5 mt-[0.5vmax] small:mt-[20vmax]">
+        <h2 className='w-2/5 mt-[10vmax] text-googleGreen font-[700] text-[3rem] small:text-[2rem] small:w-10/12'>
           Exploring the realm of Coding and Technology</h2>
-        <p className = 'w-2/5 mt-10 text-[1.5rem] text-googleBlue small:text-[1.25rem] small:w-4/5 small:mt-2'>
+        <p className = 'w-2/5 mt-10 text-[1.5rem] text-googleBlue small:text-[1.25rem] small:w-5/12 small:mt-2'>
           and some more random stuff...</p>
       </div>
 
 
       {/* Blogs Container */}
-      <div className='flex flex-wrap w-screen mt-[10rem] relative z-5 px-10 justify-center'>
+      <div className='flex flex-wrap w-screen mt-[13vmax] small:mt-[28vmax] relative z-5 px-10 justify-center'>
         {posts.map((post, i) =>(
           <>
           <BlogCard key={i} title={post.title} 
