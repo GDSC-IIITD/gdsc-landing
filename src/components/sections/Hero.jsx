@@ -11,23 +11,23 @@ function Hero() {
   return (
     <div>
       <div id='container' className='py-[15vh] flex flex-col align-middle small:py-[20vh]'>
-        <div className='absolute top-[17vmax] left-[2vmax] z-10 w-[3vmax] small:top-[20vmax] bounce'>
+        <div className='absolute top-[17vmax] left-[2vmax] z-0 w-[3vmax] small:top-[20vmax] bounce'>
           <img src={left_middle_square} width={"100%"} alt='left_middle_square' />
         </div>
         <div className='absolute top-[28vmax] z-10 w-[7vmax] small:top-[45vmax] bounce2'>
           <img src={lower_yellow_square} width={"100%"} alt='lower_yellow_square' />
         </div>
-        <div className='absolute top-[0] right-0 z-5 w-[19vmax]'>
+        <div className='absolute top-[0] right-0 z-50 w-[19vmax]'>
           <img src={upper_right_wave} width={"100%"} alt='upper_right_wave' />
         </div>
-        <div className='absolute top-[8vmax] right-[26vw] z-40 w-[4vmax] small:top-[15vmax] small:right-[15vw] bounce'>
+        <div className='absolute top-[8vmax] right-[26vw] z-0 w-[4vmax] small:top-[15vmax] small:right-[15vw] bounce'>
           <img src={right_middle_circle} width={"100%"} alt='right_middle_circle' />
         </div>
         <div className='absolute top-[30vmax] right-[0] z-10 w-[4vmax] small:top-[50vmax] bounce2'>
           <img src={right_lower_semicircle} width={"100%"} alt='right_lower_semicircle' />
         </div>
         <div id='upper-half-container' className='flex flex-col w-full items-center -z-10'>
-          <div id='animation-gif' className='w-[35%] small:w-[90%] mt-[-12vmax] mb-[-6vmax] small:-mt-[22vmax] small:-mb-[10vmax]'>
+          <div id='animation-gif' className='w-[35%] small:w-[90%] mt-[-12vmax] mb-[-9.5vmax] small:-mt-[22vmax] small:-mb-[10vmax]'>
             <img src={homeGif} width={"100%"} alt='animation-gif'></img>
           </div>
           <div id='gdsc' className='text-center font-google font-bold text-[3.5vmax] text-[#BBBBBB] leading-tight tracking-wider small:pl-[2vmax] small:pr-[0] small:text-[3.5vmax]'>

@@ -4,7 +4,7 @@ import '../css/animations.css';
 
 function Team() {
   return (
-    <div className='w-full text-center font-google'>
+    <div className='w-full text-center font-google small:pt-[7vmax]'>
       <h2 className='font-[700] text-textSecondary text-[6vmax]'>Meet the Team...</h2>
       <div className='w-full flex flex-wrap justify-center items-center px-10'>
           {data.map((member,i)=>{

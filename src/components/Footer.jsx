@@ -23,7 +23,7 @@ function Footer() {
         <div className='absolute top-[27rem] left-[8vmax] z-10 w-[4vmax] small:top-[45vmax] bounce2'>
           <img src={rectangle} width={"100%"} alt='rectangle' />
         </div>
-        <div className='absolute bottom-[3vh] left-[4vw] z-10 w-[30vmax] small:hidden'>
+        <div className='absolute bottom-[6vh] left-[4vw] z-10 w-[30vmax] small:hidden'>
           <img src={logo} width={"100%"} alt='gdsc logo' />
         </div>
           {/* <img src={circle} className="w-[3rem] small:w-[2.5rem]"/>
