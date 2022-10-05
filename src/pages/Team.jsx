@@ -1,6 +1,6 @@
 import React from 'react';
 import data from '../data/team.json';
-import '../css/animations.css';
+import '../style/animations.css';
 
 function Team() {
   return (

@@ -1,32 +1,54 @@
 import React,{useState,useEffect} from 'react';
 import EventCard from "../EventCard";
-import Event1 from '../../images/home/events_svgs/Event1.svg'
-import { motion, useScroll } from "framer-motion";
+import { motion, useScroll,useSpring } from "framer-motion";
 import client from '../../client';
 
 
 const SocialValidation = () => {
-  const { scrollYProgress } = useScroll();
+  const { scrollY } = useScroll();
+  const scaleX = useSpring(scrollY, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
+  const textScaleX = useSpring(scrollY, {
+    stiffness: 80,
+    damping: 30,
+    restDelta: 0.01
+  });
+  const[prog,setProg] = useState(scaleX.current)
+  scaleX.onChange((current, value) => {setProg(current)})
+
+  
   const [data, setData] = useState([])
   useEffect(() => {
     client
       .fetch(
-        `*[_type == "event"] { title,slug, mainImage { asset -> {_id, url}, alt}}`
+        `*[_type == "event"] { title,slug,tbh,mainImage { asset -> {_id, url}, alt}}`
       )
-      .then((res) => {setData(res); console.log(res)})
+      .then((res) => setData(res))
 
   }, [])
   
   return (
     <>
-      <motion.div className="bg-[url('./images/home/events_svgs/Bg.png')] w-[80%] h-[80vh] rounded-[5rem] " style={{translateX:scrollYProgress}}/>
-      <div className="text-6xl text-center small:text-[#9FA3AB] mt-12 mb-8 small:h-[270px] ">Upcoming Events</div>
-
-
-      <div className=" h-screen m-4 items-center">
-        <div className="flex small:flex-col justify-center small:items-center  ">
-          <EventCard EventImage={Event1} EventDate={'TBA'} EventName={'30 Days of Google Cloud'} borderCol={'googleYellow'} alt={'Google Cloud'} />
+      <div className="h-[450vh] w-full relative flex justify-center">
+        <div className="sticky top-20 w-[90%] h-[80vh]">
+          <motion.div className="z-10 absolute rounded-[3rem] w-full h-full bg-[url('./images/home/events_svgs/Tags.svg')]" style={{backgroundPositionX:(textScaleX.current+500).toString()+'px'}}/>
+          <motion.div className="z-0 absolute rounded-[3rem] w-full h-full bg-[url('./images/home/events_svgs/Bg.png')] " style={{backgroundPositionX:(scaleX.current+500).toString()+'px'}}/>
         </div>
+      </div>
+      <div className="text-6xl text-center text-textSecondary font-[600] mt-20 mb-8 small:h-[270px] ">Upcoming Events</div>
+
+      <div className="flex small:flex-col justify-center small:items-center mb-20">
+          {data.map((event,i)=>(
+            <EventCard key={i}
+                       EventImage={event.mainImage.asset.url} 
+                       EventDate={event.tbh} 
+                       EventName={event.title}
+                       Link={'/events/'+event.slug.current}/>
+                       
+          ))}
       </div>
     </>
   );

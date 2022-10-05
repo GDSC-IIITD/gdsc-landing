@@ -33,7 +33,7 @@ export default {
       {
         name: 'tbh',
         title: 'To be held',
-        type: 'datetime',
+        type: 'date',
       },
       {
         name: 'body',
@@ -45,7 +45,7 @@ export default {
     preview: {
       select: {
         title: 'title',
-        description: 'description',
+        tbh: 'tbh',
         media: 'mainImage',
       },
       prepare(selection) {

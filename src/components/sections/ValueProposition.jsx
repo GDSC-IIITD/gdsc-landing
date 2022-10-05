@@ -20,7 +20,7 @@ function ValueProposition() {
   return (
     <>
       
-      <div className="z-1 w-full grid grid-cols-1 gap-10 mt-[31px] pb-[20vmax]">
+      <div className="z-1 w-full grid grid-cols-1 gap-10 mt-[31px] pb-[10vmax]">
         <div className="flex flex-wrap justify-evenly items-center">
           <div className="flex items-center w-[35%] justify-center shrink small:w-[55%]"
             data-aos="slide-right"

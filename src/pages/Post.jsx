@@ -30,8 +30,8 @@ function Post() {
             />
             )}
 
-          <h2 className="text-center font-[700] text-googleBlue text-[3rem] mt-10">{singlePost.title}</h2>
-          <p className='text-center font-[600] text-textSecondary text-[1rem]'>{singlePost.description}</p>
+          <h2 className="text-center font-[700] text-googleBlue text-[3rem] my-10">{singlePost.title}</h2>
+          <p className='text-center font-[600] text-textSecondary text-[1rem] px-20 small:px-10'>{singlePost.description}</p>
           <BlockContent
             blocks={singlePost.body}
             projectId="d25hw29d"

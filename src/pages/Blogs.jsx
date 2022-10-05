@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import client from "../client";
-import '../css/animations.css'
+import '../style/animations.css'
 import BlogCard from "../components/BlogCard";
 
 import shapeGreen from '../images/blogs/shapeGreen.svg';

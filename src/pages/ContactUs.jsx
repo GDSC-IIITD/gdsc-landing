@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/animations.css';
+import '../style/animations.css';
 import telegram from '../images/contactUs/telegram.svg';
 import twitter from '../images/contactUs/twitter.svg';
 import linkedIn from '../images/contactUs/linkedIn.svg';
