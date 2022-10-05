@@ -1,7 +1,6 @@
 import React from 'react'
 import shapeSquare from '../../images/sponsors/shapeSquare.svg';
 import shapeCircle from '../../images/sponsors/shapeCircle.svg';
-import randomShape1 from '../../images/sponsors/randomShape1.svg';
 import sponsors from '../../data/sponsors.json';
 
 function Sponsors() {
@@ -10,7 +9,6 @@ function Sponsors() {
       {/* Background */}
       <div className="flex w-screen absolute -z-10 justify-between small:justify-center small:overflow-hidden">
         <img className="w-2/12 small:hidden" src={shapeSquare} />
-        <img className="w-8/12" src={randomShape1} />
         <img className="w-1/12 small:hidden" src={shapeCircle} />
       </div>
       <h2 className="text-4xl small:text-3xl text-[#4d4d4d] font-semibold">Sponsors and Partners</h2>
