@@ -31,10 +31,10 @@ function Hero() {
             <img src={homeGif} className='w-[100%]' alt='animation-gif'></img>
           </div>
           <div id='gdsc' className='text-center font-google font-bold text-[3.5vmax] text-[#BBBBBB] leading-tight tracking-wider small:pl-[2vmax] small:pr-[0] small:text-[3.5vmax]'>
-            <div><span className='text-googleRed'>G</span>oogle</div>
-            <div><span className='text-googleBlue'>D</span>eveloper</div>
-            <div><span className='text-googleYellow'>S</span>tudent</div>
-            <div><span className='text-googleGreen'>C</span>lubs</div>
+            <div className='springish-G'><span className='text-googleRed'>G</span>oogle</div>
+            <div className='springish-D'><span className='text-googleBlue'>D</span>eveloper</div>
+            <div className='springish-S'><span className='text-googleYellow'>S</span>tudent</div>
+            <div className='springish-C'><span className='text-googleGreen'>C</span>lubs</div>
             <div className='text-[1.5vmax] p-[1vmax] tracking-normal '><span className='text-[#00D3C7]'>IIIT</span> Delhi</div> 
           </div>
         </div>
