@@ -41,7 +41,7 @@ function Footer() {
           </form>
         </div>
         <img src={triangle} className="absolute top-[4rem] z-10 w-[4vmax] right-[10vmax] bounce"/>
-        <img src={gif} className="absolute z-0 w-[40%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%]"/>
+        <img src={gif} className="absolute z-0 w-[30%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%]"/>
       </div>
     </>
   )
