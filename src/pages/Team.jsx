@@ -10,7 +10,7 @@ function Team() {
           {data.map((member,i)=>{
             var n = Math.floor(Math.random()*8);
             return (
-            <div key={i} className={'relative flex flex-col mx-10 my-10 '+(n%2==0?'bounce':'bounce2')}>
+            <div key={i} className={'relative flex flex-col mx-10 my-10 '+(n%2===0?'bounce':'bounce2')}>
               <img src={require('../images/team/BgShapes/bg'+n.toString()+'.svg')}
                     className='w-[15rem] h-[13rem]'/>
               <img src={require('../images/team/Members/'+(member.name)+'.png')}

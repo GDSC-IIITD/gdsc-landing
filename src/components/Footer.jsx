@@ -21,7 +21,7 @@ function Footer() {
         <div className='absolute top-[27rem] left-[8vmax] z-10 w-[4vmax] small:top-[45vmax] bounce2'>
           <img src={rectangle} width={"100%"} alt='rectangle' />
         </div>
-        <div className='absolute bottom-[3vh] left-[4vw] z-10 w-[30vmax]'>
+        <div className='absolute bottom-[3vh] left-[4vw] z-10 w-[30vmax] small:hidden'>
           <img src={logo} width={"100%"} alt='gdsc logo' />
         </div>
           {/* <img src={circle} className="w-[3rem] small:w-[2.5rem]"/>
@@ -34,12 +34,12 @@ function Footer() {
           <form onSubmit={submit}>
             <input type="text" value={email} 
                   onChange={(e)=>setEmail(e.target.value)}
-                  className="rounded-full bg-[lightgrey] px-16 p-2 text-center" 
+                  className="rounded-full bg-[lightgrey] px-[5vw] p-2 text-center" 
                   placeholder="Enter email"/>
           </form>
         </div>
         <img src={triangle} className="absolute top-[4rem] z-10 w-[4vmax] right-[10vmax] bounce"/>
-        <img src={gif} className="absolute z-0 w-[40%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[2.5vmax]"/>
+        <img src={gif} className="absolute z-0 w-[30%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%]"/>
       </div>
     </>
   )
