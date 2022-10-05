@@ -1,10 +1,21 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import EventCard from "../EventCard";
 import Event1 from '../../images/home/events_svgs/Event1.svg'
 import { motion, useScroll } from "framer-motion";
+import client from '../../client';
+
 
 const SocialValidation = () => {
   const { scrollYProgress } = useScroll();
+  const [data, setData] = useState([])
+  useEffect(() => {
+    client
+      .fetch(
+        `*[_type == "event"] { title,slug, mainImage { asset -> {_id, url}, alt}}`
+      )
+      .then((res) => {setData(res); console.log(res)})
+
+  }, [])
   
   return (
     <>

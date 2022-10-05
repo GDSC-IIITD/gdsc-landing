@@ -4,8 +4,6 @@ import rectangle from '../images/home/rectangle.svg';
 import triangle from '../images/home/triangle.svg';
 import logo from '../images/logo.svg';
 import gif from '../images/gif.gif';
-import axios from 'axios';
-
 
 function Footer() {
 

@@ -1,6 +1,6 @@
 export default {
-    name: 'Sponsors',
-    title: 'sponsors',
+    name: 'sponsors',
+    title: 'Sponsors',
     type: 'document',
     fields: [
       {
@@ -26,8 +26,8 @@ export default {
     preview: {
       select: {
         title: 'title',
+        link:'link',
         media: 'mainImage',
-        link:'link'
       },
     },
   }

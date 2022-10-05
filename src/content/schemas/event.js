@@ -48,5 +48,8 @@ export default {
         description: 'description',
         media: 'mainImage',
       },
+      prepare(selection) {
+        return Object.assign({}, selection,)
+      },
     },
   }

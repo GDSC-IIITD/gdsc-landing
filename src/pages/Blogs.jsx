@@ -10,7 +10,6 @@ import randomShape2 from '../images/blogs/randomShape2.svg';
 
 function Blogs() {
   const [posts, setPosts] = useState([])
-  console.log(posts)
   useEffect(() => {
     client
       .fetch(

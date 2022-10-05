@@ -4,13 +4,14 @@ import shapeCircle from '../../images/sponsors/shapeCircle.svg';
 import client from '../../client';
 
 function Sponsors() {
-  const [sponsors, setSponsors] = useState([])
+  const [data, setData] = useState([])
   useEffect(() => {
     client
       .fetch(
-        `*[_type == "sponsors"] { title, mainImage }`
+        `*[_type == "Sponsors"] { title,link, mainImage { asset -> {_id, url}, alt}}`
       )
-      .then((data) => setSponsors(data))
+      .then((res) => setData(res))
+
   }, [])
 
 
@@ -23,14 +24,13 @@ function Sponsors() {
       </div>
       <h2 className="text-4xl small:text-3xl text-[#4d4d4d] font-semibold">Sponsors and Partners</h2>
       <div className="flex w-full flex-wrap justify-center items-center px-10">
-        {sponsors.map((sponsor, i) => {
+        {data.map((sponsor, i) => {
           return (
-            <div key={i} className="flex flex-col h-[13rem] justify-between mx-10 my-10 shadow-xl px-10 py-5 rounded-xl bg-white">
-              <div></div>
-              <img src={require('../../images/sponsors/' + sponsor.img)} 
+            <a href={sponsor.link} key={i} className="relative z-10 cursor:pointer flex flex-col h-[13rem] justify-between mx-10 my-10 shadow-xl px-10 py-5 rounded-xl bg-white">
+              <img src={sponsor.mainImage.asset.url} 
               className="w-[8rem]"/>
-              <p className="text-[#898989] font-[600]"><a href={sponsor.url}>{sponsor.name}</a></p>
-            </div>
+              <p className="text-[#898989] font-[600]">{sponsor.title}</p>
+            </a>
           )
         })}
       </div>
