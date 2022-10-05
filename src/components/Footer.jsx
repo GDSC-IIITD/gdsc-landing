@@ -24,9 +24,6 @@ function Footer() {
         <div className='absolute bottom-[6vh] left-[4vw] z-10 w-[30vmax] small:hidden'>
           <img src={logo} width={"100%"} alt='gdsc logo' />
         </div>
-          {/* <img src={circle} className="w-[3rem] small:w-[2.5rem]"/>
-          <img src={rectangle} className="w-[5rem] top-[50vmax] small:w-[3rem]"/>
-          <img src={logo} width={"100%"} className="p-0 top-[50vmax] ml-[3vmax]"/> */}
 
         <div className="w-full flex flex-col font-google text-center items-center justify-center mt-[-4rem] relative z-10">
           <h2 className="font-[700] text-googleBlue text-[4.5vmax]  pb-[1vmax]">Stay Updated</h2>

@@ -76,7 +76,7 @@ function NavBar() {
           </div>
       </div>
     </nav>
-    <div className="flex w-full justify-between items-center top-0 bg-[white] z-20 p-[1.4vmax] sticky small:pt-[3vmax]">
+    <div className="flex w-full justify-between items-center top-0 bg-[white] z-50 shadow p-[1.4vmax] sticky small:hidden small:pt-[3vmax]">
       <div className="space-y-2 z-40 large:hidden small:hidden">
         <span className="block w-7 h-1 bg-textMain z-40"></span>
         <span className="block w-7 h-1 bg-textMain z-40"></span>

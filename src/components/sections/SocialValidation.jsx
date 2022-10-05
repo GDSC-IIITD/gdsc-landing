@@ -33,12 +33,12 @@ const SocialValidation = () => {
   return (
     <>
       <div className="h-[450vh] w-full relative flex justify-center">
-        <div className="sticky top-20 w-[90%] h-[80vh]">
+        <div className="sticky top-[8rem] w-[90%] h-[80vh]">
           <motion.div className="z-10 absolute rounded-[3rem] w-full h-full bg-[url('./images/home/events_svgs/Tags.svg')]" style={{backgroundPositionX:(textScaleX.current+500).toString()+'px'}}/>
           <motion.div className="z-0 absolute rounded-[3rem] w-full h-full bg-[url('./images/home/events_svgs/Bg.png')] " style={{backgroundPositionX:(scaleX.current+500).toString()+'px'}}/>
         </div>
       </div>
-      <div className="text-6xl text-center text-textSecondary font-[600] mt-20 mb-8 small:h-[270px] ">Upcoming Events</div>
+      <div className="text-6xl text-center text-textSecondary font-[600] small:mb-0 mt-20 mb-8 small:h-[270px] ">Upcoming Events</div>
 
       <div className="flex small:flex-col justify-center small:items-center mb-20">
           {data.map((event,i)=>(
