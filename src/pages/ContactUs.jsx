@@ -13,7 +13,7 @@ function ContactUs() {
   return (
     <>
       {/* Background */}
-      <div className="flex px-[6vmax] justify-end w-full h-full absolute -top-[9rem] z-0 small:w-5/12 small:-top-[39vmax] small:-right-[1vmax]">
+      <div className="flex px-[6vmax] justify-end w-full h-full absolute -top-[9rem] -z-10 small:w-5/12 small:-top-[39vmax] small:-right-[1vmax]">
         <img src={G} alt="background" className="mr-5 w-[6.5vmax] springish-G" />
         <img src={D} alt="background" className="mr-5 w-[5.6vmax]  springish-D" />
         <img src={S} alt="background" className="mr-5 w-[5.7vmax]  springish-S" />
