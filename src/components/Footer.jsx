@@ -11,13 +11,13 @@ function Footer() {
 
   const [email, setEmail] = useState('');
   const submit = () => {
-    console.log('poop')
+    console.log('clicked')
   };
 
   return (
     <>
       <div className="w-full flex justify-between h-[100vh] mt-[-1rem] relative z-10 overflow-clip">
-        <div className="w-1/3 flex flex-col p-10  justify-between items-center relative z-10">
+        <div className="w-1/3 flex flex-col p-10  justify-between items-center relative z-10 ">
           <img src={circle} className="w-[3rem]"/>
           <img src={rectangle} className="w-[5rem] mt-10"/>
           <img src={logo} className="h-[10%] mt-[-10rem]"/>
@@ -29,7 +29,7 @@ function Footer() {
           <form onSubmit={submit}>
             <input type="text" value={email} 
                   onChange={(e)=>setEmail(e.target.value)}
-                  className="rounded-full bg-[lightgrey] px-5 p-2" 
+                  className="rounded-full bg-[lightgrey] px-5 p-2 text-center" 
                   placeholder="Enter email"/>
           </form>
         </div>
