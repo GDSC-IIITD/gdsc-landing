@@ -38,8 +38,8 @@ function Hero() {
           </div>
         </div>
         <div id='lower-half-container' className='w-full flex justify-center text-center pt-[3vmax] z-30'>
-          <div className='w-[35%] font-google text-[#797979] text-[1.2vmax] small:w-[70%] small:text-[1.8vmax]'>
-            Through GSDC - IIITD we, Developers and Designers want to foster a healthy development culture. Developer Student Clubs is a program that will help students to learn mobile and web development, design thinking and leadership skills.
+          <div className='w-[39%] font-google text-[#797979] text-[1.2vmax] small:w-[70%] small:text-[1.8vmax]'>
+            Through <span className='font-bold'>GDSC - IIITD</span> we, Developers and Designers want to foster a healthy development culture. Developer Student Clubs is a program that will help students to learn<span className='text-googleRed font-bold'> mobile</span> and <span className='text-googleBlue font-bold'>web development</span>, <span className='text-googleYellow font-bold'>design thinking</span> and <span className='text-googleGreen font-bold'>leadership skills</span>.
           </div>
         </div>
       </div>

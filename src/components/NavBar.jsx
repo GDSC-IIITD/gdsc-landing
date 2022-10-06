@@ -47,7 +47,7 @@ function NavBar() {
               </button>
             </div>
             <Link to={'/'}>
-              <img className='w-1/3 small:w-10/12 small:ml-[2vmax]' src={logo}/>
+              <img className='w-1/3 small:w-10/12 small:ml-[2vmax]' src={logo} alt="logo"/>
             </Link>
             
           </div>
@@ -82,7 +82,7 @@ function NavBar() {
         <span className="block w-7 h-1 bg-textMain z-40"></span>
         <span className="block w-7 h-1 bg-textMain z-40"></span>
       </div>
-      <Link to={'/'} className='w-1/3 ml-[2vmax] small:w-10/12 small:ml-[4vmax] small:hidden'><img src={logo}/></Link>
+      <Link to={'/'} className='w-1/3 ml-[2vmax] small:w-10/12 small:ml-[4vmax] small:hidden'><img src={logo} alt='logo'/></Link>
       <div className="flex w-2/6 justify-between small:hidden mr-[2.5vmax] text-[1.3vmax] font-google font-semibold">
         <Link className="hover:text-googleBlue" to={'/'}>Home</Link>
         <Link className="hover:text-googleRed" to={'/blogs'}>Blogs</Link>

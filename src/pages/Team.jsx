@@ -12,9 +12,9 @@ function Team() {
             return (
             <div key={i} className={'relative flex flex-col mx-10 my-10 '+(n%2===0?'bounce':'bounce2')}>
               <img src={require('../images/team/BgShapes/bg'+n.toString()+'.svg')}
-                    className='w-[15rem] h-[13rem]'/>
+                    className='w-[15rem] h-[13rem]' alt="bg shapes" />
               <img src={require('../images/team/Members/'+(member.name)+'.png')}
-                    className='w-[14rem] absolute top-[-1rem] z-10'/>
+                    className='w-[14rem] absolute top-[-1rem] z-10' alt='team members' />
               <a href={member.link} className='font-[700] text-[1.25rem]'>{member.name}</a>
               <p>{member.role}</p>
             </div>)

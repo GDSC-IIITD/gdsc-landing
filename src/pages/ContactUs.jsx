@@ -24,10 +24,10 @@ function ContactUs() {
       <div className="flex flex-col w-full h-full justify-center items-start px-[15vmax] small:px-0 py-[4vmax] small:pt-[17vmax] small:pb-0 text-textSecondary font-google space-y-12 mt-16">
         <h1 className="text-5xl text-textSecondary font-bold text-center small:pl-[9vmax]">Find us on</h1>
         <ul className="flex flex-col small:w-full font-semibold space-y-4 small:pl-[15vmax]">
-          <li><a className="flex items-center space-x-4 cursor-pointer"><img src={telegram} alt="telegram-icon" className="w-12"/><span className="hover:text-googleBlue hover:scale-105">Telegram</span></a></li>
-          <li><a className="flex items-center space-x-4 cursor-pointer"><img src={twitter} alt="twitter-icon" className="w-12"/><span className="hover:text-googleYellow hover:scale-105">Twitter</span></a></li>
-          <li><a className="flex items-center space-x-4 cursor-pointer"><img src={linkedIn} alt="linkedIn-icon" className="w-12"/><span className="hover:text-googleGreen hover:scale-105">LinkedIn</span></a></li>
-          <li><a className="flex items-center space-x-4 cursor-pointer"><img src={instagram} alt="instagram-icon" className="w-12"/><span className="hover:text-googleRed hover:scale-105">Instagram</span></a></li>
+          <li><a className="flex items-center space-x-4 cursor-pointer" href='/'><img src={telegram} alt="telegram-icon" className="w-12"/><span className="hover:text-googleBlue hover:scale-105">Telegram</span></a></li>
+          <li><a className="flex items-center space-x-4 cursor-pointer" href='/'><img src={twitter} alt="twitter-icon" className="w-12"/><span className="hover:text-googleYellow hover:scale-105">Twitter</span></a></li>
+          <li><a className="flex items-center space-x-4 cursor-pointer" href='/'><img src={linkedIn} alt="linkedIn-icon" className="w-12"/><span className="hover:text-googleGreen hover:scale-105">LinkedIn</span></a></li>
+          <li><a className="flex items-center space-x-4 cursor-pointer" href='/'><img src={instagram} alt="instagram-icon" className="w-12"/><span className="hover:text-googleRed hover:scale-105">Instagram</span></a></li>
         </ul>
       </div>
     </>

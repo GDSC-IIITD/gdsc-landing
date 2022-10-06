@@ -35,8 +35,8 @@ function Footer() {
                   placeholder="Enter email"/>
           </form>
         </div>
-        <img src={triangle} className="absolute top-[4rem] z-10 w-[4vmax] right-[10vmax] bounce"/>
-        <img src={gif} className="absolute z-0 w-[30%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%]"/>
+        <img src={triangle} alt="triangle" className="absolute top-[4rem] z-10 w-[4vmax] right-[10vmax] bounce"/>
+        <img src={gif} alt="gif" className="absolute z-0 w-[30%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%]"/>
       </div>
     </>
   )
