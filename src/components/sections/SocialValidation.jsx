@@ -12,9 +12,9 @@ const SocialValidation = () => {
     restDelta: 0.001
   });
   const textScaleX = useSpring(scrollY, {
-    stiffness: 80,
-    damping: 30,
-    restDelta: 0.01
+    stiffness: 90,
+    damping: 35,
+    restDelta: 0.0001
   });
   const[prog,setProg] = useState(scaleX.current)
   scaleX.onChange((current, value) => {setProg(current)})
