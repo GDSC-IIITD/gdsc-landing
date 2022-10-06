@@ -29,7 +29,7 @@ const SocialValidation = () => {
         `*[_type == "event"] { title,slug,tbh,mainImage { asset -> {_id, url}, alt}}`
       )
       .then((res) => setData(res))
-
+        document.getElementById('')
   }, [])
   
   return (

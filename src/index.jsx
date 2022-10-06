@@ -12,11 +12,12 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  
   <BrowserRouter>
     <NavBar />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/blogs/:slug" element={<Post />} />
+      {/* <Route path="/blogs/:slug" element={<Post />} /> */}
       <Route path="/events/:slug" element={<Post />} />
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/contactUs" element={<ContactUs />} />

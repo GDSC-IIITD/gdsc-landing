@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react'
 
-const Events = ({EventImage,EventName,EventDate,Link,alt,key}) => {
-  const colors = ['googleRed', 'googleBlue', 'googleGreen', 'googleYellow'];
+const Events = ({EventImage,EventName,EventDate,Link,alt}) => {
   const [colour,setColour] = useState('')
   useEffect(() => {
-     setColour(colors[Math.floor(Math.random() * colors.length)])
+    const colors = ['googleRed', 'googleBlue', 'googleGreen', 'googleYellow'];
+    setColour(colors[Math.floor(Math.random() * colors.length)])
   },[])
 
   return (

@@ -6,6 +6,7 @@ import BlockContent from '@sanity/block-content-to-react'
 function Post() {
     const [singlePost, setSinglePost] = useState([])
     const [isLoading, setIsLoading] = useState(true)
+    
     const { slug } = useParams();
     useEffect(() => {
         client
@@ -16,6 +17,7 @@ function Post() {
         setIsLoading(false)
       }, [slug])
 
+   
   return (
     <>
         {isLoading ? (<h1 > Loading...</h1>) :
