@@ -83,7 +83,7 @@ function NavBar() {
                       navbar ? "block" : "hidden"
                   }`}
               >
-                  <ul className="items-center opacity-100 z-[100] bg-white justify-center space-y-4">
+                  <ul className="items-center opacity-100 z-[100] text-textSecondary bg-white justify-center space-y-4">
                       <li className="font-google font-semibold text-center bg-white z-[100] hover:text-googleBlue">
                         <Link className="hover:text-googleBlue" to={'/'} onClick={() => setNavbar(!navbar)} >Home</Link>
                       </li>

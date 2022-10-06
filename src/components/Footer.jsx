@@ -7,11 +7,6 @@ import gif from '../images/gif.gif';
 
 function Footer() {
 
-  const [email, setEmail] = useState('');
-  const submit = () => {
-    console.log('clicked')
-  };
-
   return (
     <div className='overflow-hidden'>
       <div className="w-full flex justify-between h-[100vh] mt-[-1rem] relative z-10 overflow-clip">
@@ -28,12 +23,10 @@ function Footer() {
         <div className="w-full flex flex-col font-google text-center items-center justify-center mt-[-4rem] relative z-10">
           <h2 className="font-[700] text-googleBlue text-[4.5vmax]  pb-[1vmax]">Stay Updated</h2>
           <p className="text-textSecondary mb-5 font-[600] text-[1.5vmax] w-5/12">Stay connected to stay updated about the upcoming events and the latest news.</p>
-          <form onSubmit={submit}>
-            <input type="text" value={email} 
-                  onChange={(e)=>setEmail(e.target.value)}
-                  className="rounded-full bg-[lightgrey] px-[5vw] p-2 text-center" 
-                  placeholder="Enter email"/>
-          </form>
+          <a href="https://gdsc.community.dev/indraprastha-institute-of-information-technology-delhi/"
+            className="hover:bg-googleGreen transition-all hover:text-[white] rounded-full bg-[lightgrey] px-[5vw] p-2 text-center" >
+            Join Us
+          </a>
         </div>
         <img src={triangle} alt="triangle" className="absolute top-[4rem] z-10 w-[4vmax] right-[10vmax] bounce"/>
         <img src={gif} alt="gif" className="absolute z-0 w-[30%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%] overflow-clip"/>
