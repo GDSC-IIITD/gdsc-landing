@@ -13,9 +13,9 @@ const SocialValidation = () => {
 
   });
   const textScaleX = useSpring(scrollY, {
-    stiffness: 100,
+    stiffness: 80,
     damping: 30,
-    restDelta: 1,
+    restDelta: 0.01,
     
   });
   const[prog,setProg] = useState(scaleX.current)
