@@ -31,7 +31,7 @@ function Blogs() {
 
 
       {/* Heading */}
-      <div className="flex flex-col w-full items-center text-center font-google relative z-5 mt-[0.5vmax] small:mt-[20vmax]">
+      <div className="flex flex-col w-full items-center text-center font-google relative z-5 mt-[0.5vmax] ">
         <h2 className='w-2/5 mt-[10vmax] text-googleGreen font-[700] text-[3rem] small:text-[2rem] small:w-10/12'>
           Exploring the realm of Coding and Technology</h2>
         <p className = 'w-2/5 mt-10 text-[1.5rem] text-googleBlue small:text-[1.25rem] small:w-5/12 small:mt-2'>
