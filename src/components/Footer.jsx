@@ -8,7 +8,7 @@ import gif from '../images/gif.gif';
 function Footer() {
 
   return (
-    <>
+    <div className='overflow-hidden'>
       <div className="w-full flex justify-between h-[100vh] mt-[-1rem] relative z-10 overflow-clip">
         <div className='absolute top-[7rem] left-[10vmax] z-10 w-[3vmax] small:top-[20vmax] bounce'>
           <img src={circle} width={"100%"} alt='circle' />
@@ -29,9 +29,9 @@ function Footer() {
           </a>
         </div>
         <img src={triangle} alt="triangle" className="absolute top-[4rem] z-10 w-[4vmax] right-[10vmax] bounce"/>
-        <img src={gif} alt="gif" className="absolute z-0 w-[30%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%]"/>
+        <img src={gif} alt="gif" className="absolute z-0 w-[30%] -right-[3vmax] scale-150 bottom-[-3.5vmax] small:-bottom-[3vmax] small:right-[10%] small:w-[80%] overflow-clip"/>
       </div>
-    </>
+    </div>
   )
 }
 
