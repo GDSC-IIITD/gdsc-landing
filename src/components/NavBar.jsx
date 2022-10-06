@@ -1,9 +1,34 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../images/logo.svg'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
+  useEffect(() => {
+    console.log(window.location.href);
+    let url = window.location.href;
+    var i=url.length;
+    while(url[i]!=='/' ){
+      i--;
+    }
+    let page = url.substring(i+1);
+    console.log(page);
+    if(page==='/'){
+      let btn = document.getElementById('home');
+      btn.style.setProperty('color', 'text-googleBlue');
+    }else if(page==='/blogs'){
+      let btn = document.getElementById('blogs');
+      btn.style.setProperty('color', 'text-googleRed');
+    }else if(page==='/team'){
+      let btn = document.getElementById('team');
+      btn.style.setProperty('color', 'text-googleGreen');
+    }
+    else if(page==='/contactUs'){
+      let btn = document.getElementById('contact_us');
+      btn.style.setProperty('color', 'text-googleYellow');
+    }
+  }, []);
+  
   return (
     <>
     <nav className="w-full bg-[white] shadow large:hidden z-40 fixed">
@@ -84,10 +109,10 @@ function NavBar() {
       </div>
       <Link to={'/'} className='w-1/3 ml-[2vmax] small:w-10/12 small:ml-[4vmax] small:hidden'><img src={logo} alt='logo'/></Link>
       <div className="flex w-2/6 justify-between small:hidden mr-[2.5vmax] text-[1.3vmax] font-google font-semibold">
-        <Link className="hover:text-googleBlue" to={'/'}>Home</Link>
-        <Link className="hover:text-googleRed" to={'/blogs'}>Blogs</Link>
-        <Link className="hover:text-googleGreen" to={'/team'}>Team</Link>
-        <Link className="hover:text-googleYellow" to={'/contactUs'}>ContactUs</Link>
+        <Link id='home' className="hover:text-googleBlue" to={'/'}>Home</Link>
+        <Link id='blogs' className="hover:text-googleRed" to={'/blogs'}>Blogs</Link>
+        <Link id='team' className="hover:text-googleGreen" to={'/team'}>Team</Link>
+        <Link id='contact_us' className="hover:text-googleYellow" to={'/contactUs'}>ContactUs</Link>
       </div>
       
     </div>

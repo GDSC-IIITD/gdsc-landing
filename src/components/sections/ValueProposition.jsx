@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 function ValueProposition() {
   useEffect(() => {
     Aos.init({
-      offset: 300,
+      offset: 150,
       duration: 400,
     });
   }, []);
@@ -27,7 +27,7 @@ function ValueProposition() {
           >
             <img src={compShape1} width={"100%"} alt="component 1" />
           </div>
-          <div className="flex items-center w-[25%] justify-start shrink small:w-[35%]"
+          <div className="flex items-center w-[25%] justify-start shrink small:w-[35%] h-full"
             data-aos="fade-left"
           >
             <img src={compShapeDet1} width={"100%"} alt="component 2" />
