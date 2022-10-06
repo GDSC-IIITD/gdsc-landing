@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import circle from '../images/home/circle.svg';
 import rectangle from '../images/home/rectangle.svg';
 import triangle from '../images/home/triangle.svg';

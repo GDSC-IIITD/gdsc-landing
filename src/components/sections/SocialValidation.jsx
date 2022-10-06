@@ -18,7 +18,7 @@ const SocialValidation = () => {
   });
   const[prog,setProg] = useState(scaleX.current)
   scaleX.onChange((current, value) => {setProg(current)})
-
+  
   
   const [data, setData] = useState([])
   useEffect(() => {
