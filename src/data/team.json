@@ -1,23 +1,18 @@
 [
     {
-        "name":"Ashish Kamathi",
+        "name":"Anusha Tiwari",
         "role":"GDSC Lead",
-        "link":"https://linktr.ee/ashishkamathi"
-    },
-    {
-        "name":"Jogith Chandran",
-        "role":"Co-Ordinator",
-        "link":""
+        "link":"https://linktr.ee/gdsciiitd"
     },
     {
         "name":"Vishnu Shon",
-        "role":"Web Development Team",
+        "role":"Operations Core Team",
         "link":"https://linktr.ee/VishnuShon"
     },
     {
-        "name":"Anis Mishra",
-        "role":"Web Development Team",
-        "link":"https://linktr.ee/anismishra"
+        "name":"Tushar Chandra",
+        "role":"Cybersecurity Team",
+        "link":"https://linktr.ee/tusharchandra"
     },
     {
         "name":"Ramanjeet Singh",
@@ -25,143 +20,28 @@
         "link":"https://linktr.ee/ramanjeetsingh"
     },
     {
-        "name":"Nikhil Gupta",
+        "name":"Kushagra",
         "role":"Web Development Team",
         "link":""
     },
     {
-        "name":"Kritarth",
+        "name":"Atharv Srivastava",
+        "role":"Web Development Team",
+        "link":"https://linktr.ee/atharvf14t"
+    },
+    {
+        "name":"Parthiv Ashokkumar Dholaria",
         "role":"Web Development Team",
         "link":""
     },
     {
-        "name":"Aman Kumar",
-        "role":"Web Development Team",
-        "link":"https://linktr.ee/amankumar28"
-    },
-    {
-        "name":"Yashasvi Chaurasia",
+        "name":"Pritha Sharma",
         "role":"Web Development Team",
         "link":""
     },
     {
-        "name":"Garima Chopra",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Bharat Yadav",
-        "role":"Media & Content Team",
-        "link":"https://linktr.ee/bhxrxt"
-    },
-    {
-        "name":"Paridhi Mundra",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Syed Arslan Hasan",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Biswasmita Mishra",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Kritika Gupta",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Sidhant Kumar Agrawal",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Daksh Sammi",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Srimant Mohanty",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Tushar Chandra",
-        "role":"Media & Content Team",
-        "link":""
-    },
-    {
-        "name":"Bhavya Jain",
-        "role":"Events Team",
-        "link":""
-    },
-    {
-        "name":"Mehul Arora",
-        "role":"Events Team",
-        "link":"https://linktr.ee/sociallyencrypted"
-    },
-    {
-        "name":"Aditya Girdhar",
-        "role":"Events Team",
-        "link":"https://linktr.ee/adityagirdhar"
-    },
-    {
-        "name":"Divyajeet Singh",
-        "role":"Events Team",
-        "link":""
-    },
-    {
-        "name":"Manasva Mittal",
-        "role":"Events Team",
-        "link":"https://linktr.ee/manasva21"
-    },
-    {
-        "name":"Yashika Singh",
-        "role":"Events Team",
-        "link":""
-    },
-    {
-        "name":"Janesh Kapoor",
-        "role":"Events Team",
-        "link":""
-    },
-    {
-        "name":"Anusha Tiwari",
-        "role":"Events Team",
-        "link":""
-    },
-    {
-        "name":"Ananya Goyal",
-        "role":"Events Team",
-        "link":"https://linktr.ee/cation03"
-    },
-    {
-        "name":"Charvi Jindal",
-        "role":"Events Team",
-        "link":""
-    }, 
-    {
-        "name":"Ritvik Pendyala",
-        "role":"Mobile Development Team",
-        "link":"https://linktr.ee/pendi1901"
-    },
-    {
-        "name":"Antonio Pedro",
-        "role":"Mobile Development Team",
-        "link":"https://linktr.ee/antdev99"
-    },
-    {
-        "name":"Yuvraj Singh",
-        "role":"Mobile Development Team",
-        "link":""
-    },
-    {
-        "name":"Rahul Singh",
-        "role":"Mobile Development Team",
+        "name":"Siddarth Rajput",
+        "role":"Web Development Team",
         "link":""
     },
     {
@@ -169,19 +49,135 @@
         "role":"Mobile Development Team",
         "link":"https://linktr.ee/himanshusachdeva"
     },
-     {
-        "name":"Mihir Chaturvedi",
-        "role":"ML Team",
+    {
+        "name":"Antonio Pedro",
+        "role":"Mobile Development Team",
+        "link":"https://linktr.ee/antdev99"
+    },
+    {
+        "name":"Agraney Tripathi",
+        "role":"Mobile Development Team",
         "link":""
     },
-     {
-        "name":"Rishabh Gupta",
-        "role":"ML Team",
+    {
+        "name":"Riya Gupta",
+        "role":"Mobile Development Team",
         "link":""
+    },
+    {
+        "name":"Jogith Chandran",
+        "role":"Mobile Development Team",
+        "link":""
+    },
+    {
+        "name":"Aditya Girdhar",
+        "role":"ML Team",
+        "link":"https://linktr.ee/adityagirdhar"
     },
      {
         "name":"Bhagesh Gaur",
         "role":"ML Team",
         "link":"https://linktr.ee/bhageshgaur"
+    },
+     {
+        "name":"Akanksha Singal",
+        "role":"ML Team",
+        "link":""
+    },
+    {
+        "name":"Pratham Singhal",
+        "role":"ML Team",
+        "link":""
+    },
+    {
+        "name":"Priyash Shah",
+        "role":"ML Team",
+        "link":""
+    },
+    {
+        "name":"Shruti Gupta",
+        "role":"ML Team",
+        "link":""
+    },
+    {
+        "name":"Siddarth Rajput",
+        "role":"Web Development Team",
+        "link":""
+    },
+    {
+        "name":"Mehul Arora",
+        "role":"Cybersecurity Team",
+        "link":"https://linktr.ee/sociallyencrypted"
+    },
+    {
+        "name":"Dhruv Malik",
+        "role":"Cybersecurity Team",
+        "link":""
+    },
+    {
+        "name":"Rayyan Hussain",
+        "role":"Cybersecurity Team",
+        "link":""
+    },
+    {
+        "name":"Yashasvi Chaurasia",
+        "role":"Cybersecurity Team",
+        "link":""
+    },
+    {
+        "name":"Yashika Singh",
+        "role":"Cybersecurity Team",
+        "link":""
+    },
+    {
+        "name":"Rahul Pujari",
+        "role":"Blockchain Team",
+        "link":""
+    },
+    {
+        "name":"Anjanay Raina",
+        "role":"Blockchain Team",
+        "link":""
+    },
+    {
+        "name":"Akshat Gupta",
+        "role":"Blockchain Team",
+        "link":""
+    },
+    {
+        "name":"Naman Garg",
+        "role":"Blockchain Team",
+        "link":""
+    },
+    {
+        "name":"Sidhant Kumar Agrawal",
+        "role":"Blockchain Team",
+        "link":""
+    },
+    {
+        "name":"Janesh Kapoor",
+        "role":"Design Team",
+        "link":""
+    },
+    {
+        "name":"Arslan Hasan",
+        "role":"Design Team",
+        "link":""
+    },
+    {
+        "name":"Aarav Balachandran",
+        "role":"Design Team",
+        "link":""
+    },
+    {
+        "name":"Kritika Gupta",
+        "role":"Design Team",
+        "link":""
+    },
+    {
+        "name":"Omansh Arora",
+        "role":"Design Team",
+        "link":""
     }
+    
 ]
